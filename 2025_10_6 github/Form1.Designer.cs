@@ -34,13 +34,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(0, 4);
+            button1.Location = new Point(-7, -1);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(800, 446);
-            button1.Location = new Point(-7, -14);
-            button1.Margin = new Padding(2, 2, 2, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(658, 390);
+            button1.Size = new Size(658, 377);
             button1.TabIndex = 0;
             button1.Text = "Welcome ";
             button1.UseVisualStyleBackColor = true;
@@ -62,7 +59,7 @@
             ClientSize = new Size(640, 360);
             Controls.Add(button2);
             Controls.Add(button1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
