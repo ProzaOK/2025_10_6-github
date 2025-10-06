@@ -13,6 +13,8 @@ namespace _2025_10_6_github
             //já to čtu taky
             MessageBox.Show("Ahoj, vítej v aplikaci!");
             MessageBox.Show("Hello, welcome to thE");
+            MessageBox.Show("Ahoj, vítej v applikačním softwaru!");
+            MessageBox.Show("falešná politická reklama!!!! ");
         }
     }
 }
