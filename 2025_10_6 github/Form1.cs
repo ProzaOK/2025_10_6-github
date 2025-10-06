@@ -9,7 +9,7 @@ namespace _2025_10_6_github
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //hallo všeci kdo toto čtete
         }
     }
 }
