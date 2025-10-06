@@ -12,6 +12,7 @@ namespace _2025_10_6_github
             //hallo všeci kdo toto čtete
             //já to čtu taky
             MessageBox.Show("Ahoj, vítej v applikačním softwaru!");
+            MessageBox.Show("falešná politická reklama!!!! ");
         }
     }
 }
