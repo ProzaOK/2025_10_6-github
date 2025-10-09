@@ -30,7 +30,7 @@
         {
             button1 = new Button();
             textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -52,20 +52,20 @@
             textBox1.Size = new Size(416, 27);
             textBox1.TabIndex = 1;
             // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(90, 278);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(416, 27);
-            textBox2.TabIndex = 2;
-            textBox2.TextChanged += textBox2_TextChanged;
+            // label1
+            label1.Location = new Point(90, 150);
+            label1.Name = "label1";
+            label1.Size = new Size(416, 27);
+            label1.Text = "";
+            label1.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 238);
+
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(640, 360);
-            Controls.Add(textBox2);
+            Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(button1);
             Margin = new Padding(2);
@@ -79,6 +79,8 @@
 
         private Button button1;
         private TextBox textBox1;
-        private TextBox textBox2;
+        private Label label1;
+
+
     }
 }
