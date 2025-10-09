@@ -11,5 +11,10 @@ namespace _2025_10_6_github
         {
 
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,45 +29,56 @@
         private void InitializeComponent()
         {
             button1 = new Button();
-            button2 = new Button();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(-7, -1);
+            button1.Font = new Font("Courier New", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button1.Location = new Point(228, 93);
             button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(658, 377);
+            button1.Size = new Size(159, 36);
             button1.TabIndex = 0;
-            button1.Text = "Welcome ";
+            button1.Text = "Calculate";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
+            // textBox1
             // 
-            button2.Location = new Point(363, 169);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            textBox1.Location = new Point(90, 36);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(416, 27);
+            textBox1.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(90, 278);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(416, 27);
+            textBox2.TabIndex = 2;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(640, 360);
-            Controls.Add(button2);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(button1);
             Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
-        private Button button2;
+        private TextBox textBox1;
+        private TextBox textBox2;
     }
 }
