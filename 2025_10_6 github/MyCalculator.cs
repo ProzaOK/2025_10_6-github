@@ -11,7 +11,7 @@ namespace _2025_10_6_github
         public int V1 = 0;
         public MyCalculator()
         {
-
+            //exe
         }
     }
 }
