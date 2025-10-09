@@ -8,5 +8,10 @@ namespace _2025_10_6_github
 {
     internal class MyCarculator
     {
+        public int V1 = 0;
+        public MyCarculator()
+        {
+
+        }
     }
 }
